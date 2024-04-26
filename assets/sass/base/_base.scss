@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    padding-bottom: 1rem;
+    background-color: #ffff81;
+}
+.navbar {
+    background-color: #ffff00;
+    box-shadow: 0 0 100px #ffff35;
+
+}
+
+.navbar-brand{
+    margin-left: 6rem;
+}
+.text-navbar {
+    font-family: "Bangers", system-ui;
+    margin-left: 10px; /* Ajusta el margen según sea necesario */
+    width: 200px;
+}
+
+

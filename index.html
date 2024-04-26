@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <!--Sass-->
+    <link rel="stylesheet" href="./assets/sass/main.css">
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--Jquery Ajax-->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Js-->
+    <script type="text/javascript" src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    <script defer src="assets/js/plugins/jquery.hide.js"></script>
+    <script defer src="./assets/js/plugins/charJsCreator.js"></script>
+    <script defer type= "module" src="./assets/js/index.js"></script>
+    <title>Super Hero</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar d-flex align-items-center">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="./assets/img/sh2.jpg" alt="Logo" width="40" height="35" class="d-inline-block align-text-top">
+                    <h1 class="text-navbar m-0 ms-2">SuperHero</h1> 
+                </a>
+            </div>
+        </nav>
+        <img src="./assets/img/sh1.jpg" alt="Imagen referencial de SuperHero" class="img-fluid d-block " id="reload-image">
+    </header>          
+    <section>
+        <div class="container">
+            <h2>Encuentra tu SuperHero</h2>
+            <p class="texto-buscar-superhero">Ingresa el número del SuperHero a buscar</p>
+            
+            <input type="text" class="p-2 parpadear" id="input-superhero" placeholder="Ingresa el número del SuperHero a buscar">
+            <button type="submit" id="search-superhero" class="btn btn-warning p-2 parpadear">Buscar</button>
+        
+        </div>
+    </section>
+
+    <section class="container justify-content-center align-items-center my-5">
+        
+        <div class="row info-superhero">
+            <div class="col-md-6 onesuperhero-section">
+                <!-- Aquí cargas la tarjeta con un solo SuperHero -->
+            </div>
+            <div class="col-md-6" id="chartContainer">
+                <!-- Aquí cargas el gráfico -->
+            </div>
+        </div>
+    </section>    
+    
+</body>
+
+
+</html>
